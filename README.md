@@ -30,7 +30,7 @@ This project is a Spring Boot application demonstrating how to use **Spring AI**
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/spring-ai-agents.git
+git clone https://github.com/Elhajbi/Spring-AI-Agent
 cd spring-ai-agents
 ```
 ## 2. Configure `application.properties`
@@ -58,7 +58,7 @@ BONJOUR À VOUS !
 ## 🎬 /askAgent
 Structured response about movies:
 ```bash
-curl "http://localhost:8080/askAgent?query=recommande moi 2 films"
+curl "http://localhost:8899/askAgent?query=recommande moi 2 films"
 ```
 ## 📤 JSON:
 ```bash
