@@ -49,7 +49,7 @@ spring.ai.openai.image.model=dall-e-3
 ## 🧠 /chat
 ## Chat with the AI (uppercase responses):
 ```bash
-curl "http://localhost:8080/chat?query=bonjour"
+curl "http://localhost:8899/chat?query=bonjour"
 ```
 ## 📤 Response:
 ```bash
@@ -72,7 +72,7 @@ curl "http://localhost:8899/askAgent?query=recommande moi 2 films"
 ## 🖼️ /generateImage
 Generate a high-quality image from a prompt using DALL·E 3:
 ```bash
-curl "http://localhost:8080/generateImage?prompt=un%20chien%20dans%20une%20montagne"
+curl "http://localhost:8899/generateImage?prompt=un%20chien%20dans%20une%20montagne"
 ```
 ## 📤 Response:
 ```bash
